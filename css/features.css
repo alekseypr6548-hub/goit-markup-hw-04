@@ -52,3 +52,28 @@
 .feature-title {
     margin-bottom: 8px;
 }
+
+.features-thumb {
+    display: flex;
+    align-items: center;
+    /* Центрує іконку по вертикалі */
+    justify-content: center;
+    /* Центрує іконку по горизонталі */
+
+    width: 264px;
+    height: 112px;
+    background-color: rgba(244, 244, 253, 1);
+    /* Світлий колір CLOUD з макета */
+    border-radius: 4px;
+    /* Скруглення кутів із розділу Appearance */
+
+    /* Відступ знизу від плашки до заголовка Strategy (виміряйте в макеті, зазвичай 8px) */
+    margin-bottom: 8px;
+}
+
+/* Стилі для самої SVG-іконки всередині плашки */
+.features-icon {
+    /* Розміри іконки беремо з макета (64px на 64px) */
+    width: 64px;
+    height: 64px;
+}
