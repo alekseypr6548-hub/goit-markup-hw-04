@@ -1,0 +1,52 @@
+/* Стилі для всієї секції Hero */
+.hero-section {
+    background-color: #2E2F42;
+
+    /* --- ДОДАЙТЕ ЦІ РЯДКИ СЮДИ --- */
+    padding: 188px 0;
+}
+
+/* Стилі для тексту заголовка */
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+
+    /* --- ДОДАЙТЕ ЦІ РЯДКИ СЮДИ --- */
+    max-width: 496px;
+    margin: 0 auto 48px;
+    /* 0 px відступ зверху, auto центрує кнопку ліворуч/праворуч, та до низу до кнопки 48px*/
+}
+
+/*поточні стилі типографіки та кольору */
+.hero-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+    cursor: pointer;
+
+/* --- ДОДАЙТЕ ЦІ РЯДКИ СЮДИ --- */
+    padding: 16px 32px;
+
+    display: block;
+     /* Робить кнопку блоком, щоб спрацювало центрування */
+   
+    border: none;
+    /* Прибирає стандартну чорну рамку браузера */
+    border-radius: 4px;
+    /* Скруглення кутів рамки */
+    margin: 0 auto 0;
+    /* 0px відступ зверху від h1, auto центрує кнопку ліворуч/праворуч, та до низу 0*/
+}
+
+/* Стилі для кнопки при наведенні мишкою та фокусі */
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+}
